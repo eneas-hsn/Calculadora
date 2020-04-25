@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+       
+    </header>
+    <section>
+        <div class="principal">
+             
+            <div id="res">
+                <input type="text" id="text">
+                
+            </div>
+            <div id="principalf">
+            <div id="f1">
+                <input type="button" value="7" id="num7" onclick="preencher(value)">
+                <input type="button" value="8" id="num8" onclick="preencher(value)">
+                <input type="button" value="9" id="num9" onclick="preencher(value)">
+                <input type="button" value="*" id="vezes" onclick="preencher(value)">
+                <input type="button" value="=" id="igual" onclick="calcular()">
+            </div>
+            <div id="f2">
+                <input type="button" value="4" id="num4"onclick="preencher(value)">
+                <input type="button" value="5" id="num5" onclick="preencher(value)">
+                <input type="button" value="6" id="num6"onclick="preencher(value)">
+                <input type="button" value="-" id="menos"onclick="preencher(value)">
+            </div>
+            <div id="f3">
+                <input type="button" value="1" id="num1" onclick="preencher(value)">
+                <input type="button" value="2" id="num2"onclick="preencher(value)">
+                <input type="button" value="3" id="num3"onclick="preencher(value)">
+                <input type="button" value="+" id="mais"onclick="preencher(value)">
+            </div>
+            <div id="f4">
+                <input type="button" value="0" id="num0"onclick="preencher(value)">
+                <input type="button" value="." id="ponto"onclick="preencher(value)">
+                <input type="button" value="C" id="reset" onclick="reseta()">
+                <input type="button" value="/" id="dividir"onclick="preencher(value)">
+            </div>
+            
+</div>
+        </div>
+    </section>
+    <footer>
+        <p>Autor: Enéas Neto</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
