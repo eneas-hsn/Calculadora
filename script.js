@@ -10,8 +10,6 @@ function calcular() {
     resultado=document.getElementById('text').value;
     document.getElementById('text').value=eval(resultado);
 }
-//function apaga() {
-   // document.getElementById('text').value-=preencher();}
    function apagar() {
     let input = document.getElementById('text');
     let inputText = text.value;
