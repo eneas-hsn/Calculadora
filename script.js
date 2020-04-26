@@ -14,3 +14,9 @@ function calcular() {
 }
 //function apaga() {
    // document.getElementById('text').value-=preencher();}
+   function apagar() {
+    let input = document.getElementById('text');
+    let inputText = text.value;
+    input.value = inputText.substring(0,inputText.length-1);
+    console.log(text.value);
+  }

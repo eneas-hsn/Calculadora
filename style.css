@@ -10,7 +10,7 @@
     font-size: 25px;
     padding: 15px;
     margin: 30px 0px 23px 30px;
-    padding-right: 108px;    
+    padding-right: 18px;    
 }
 #f1, #f2,#f3,#f4{
     padding:10px;
@@ -32,11 +32,18 @@
     background-color: white;
     
 }
+#apaga{
+    padding: 22px;
+    padding-bottom: 18px;
+    padding-top: 26px;
+    margin-left: 17px;
+    padding-right: 25px;
+}
     #mais, #num1, #num2,#num3,#num4,#num5,#num6,#num7,#num8,#num9,#num0,#reset,#vezes, #igual{
         padding: 28px;
         margin-left: 22px;
     }
-#ponto:hover,#mais:hover, #menos:hover, #dividir:hover, #ponto:hover, #num1:hover, #num2:hover,#num3:hover,#num4:hover,#num5:hover,#num6:hover,#num7:hover,#num8:hover,#num9:hover,#num0:hover,#vezes:hover {
+#ponto:hover,#mais:hover, #menos:hover, #dividir:hover, #ponto:hover, #num1:hover, #num2:hover,#num3:hover,#num4:hover,#num5:hover,#num6:hover,#num7:hover,#num8:hover,#num9:hover,#num0:hover,#vezes:hover,#apaga:hover {
 background-color: rgb(252, 134, 134);
 color: white;
 }
