@@ -8,8 +8,6 @@ function preencher(valor) {
 function calcular() {
     var resultado=0;
     resultado=document.getElementById('text').value;
-    //alert(resultado)
-    document.getElementById('text').value='';
     document.getElementById('text').value=eval(resultado);
 }
 //function apaga() {
