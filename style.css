@@ -23,10 +23,10 @@
 #igual{
     position: absolute;
     height: 360px;
-    background-color:  rgb(252, 134, 134);
+    background-color:  rgb(165, 134, 252;
 }
 #reset{
-    background-color:  rgb(252, 134, 134);
+    background-color:  rgb(165, 134, 252);
 }
 #igual:hover, #reset:hover{
     background-color: white;
